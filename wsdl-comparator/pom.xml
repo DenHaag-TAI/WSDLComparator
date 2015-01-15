@@ -5,6 +5,22 @@
 	<version>1.1-SNAPSHOT</version>
 	<name>wsdl-comparator</name>
 	<description>WSDL Comparator</description>
+	<scm>
+		<connection>scm:git:git@github.com:DenHaag-TAI/WSDLComparator/wsdl-comparator</connection>
+		<developerConnection>scm:git:git@github.com:DenHaag-TAI/WSDLComparator/wsdl-comparator</developerConnection>
+	</scm>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>SNAPSHOTS repository</name>
+			<url>http://10.42.60.112:8080/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>releases</id>
+			<name>RELEASES repository</name>
+			<url>http://10.42.60.112:8080/nexus/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>		
 	<build>
 		<resources>
 			<resource>
