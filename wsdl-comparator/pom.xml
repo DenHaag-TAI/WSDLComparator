@@ -169,20 +169,17 @@
 		<developer>
 			<id>bastiaan</id>
 			<name>Bastiaan Verhoef</name>
-			<email>bastiaan.verhoef@denhaag.nl</email>
 		</developer>
 	</developers>
 	<contributors>
 		<contributor>
 			<name>Borjan Cace</name>
-			<email>borjan.cace@denhaag.nl</email>
 			<roles>
 				<role>Project Manager</role>
 			</roles>
 		</contributor>
 		<contributor>
 			<name>Michiel Jaeger</name>
-			<email>michiel.jaeger@denhaag.nl</email>
 			<roles>
 				<role>Tester</role>
 			</roles>
