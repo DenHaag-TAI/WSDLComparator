@@ -2,13 +2,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.denhaag.tw</groupId>
 	<artifactId>wsdl-comparator</artifactId>
-	<version>1.1</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>wsdl-comparator</name>
 	<description>WSDL Comparator</description>
 	<inceptionYear>2012</inceptionYear>
 	<scm>
-		<connection>scm:git:git://github.com/DenHaag-TAI/WSDLComparator/wsdl-comparator</connection>
-		<developerConnection>scm:git:git://github.com/DenHaag-TAI/WSDLComparator/wsdl-comparator</developerConnection>
+		<connection>scm:git:git://github.com/DenHaag-TAI/WSDLComparator.git</connection>
+		<developerConnection>scm:git:git://github.com/DenHaag-TAI/WSDLComparator.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
