@@ -1,0 +1,141 @@
+@CHARSET "utf-8";
+
+body {
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+		sans-serif;
+	font-size: 12px;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+h1 {
+	background-color: #F0F0F0;
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	outline: 0 none;
+	padding: 3px 10px;
+	margin: 10px 0px;
+	text-decoration: none;
+}
+
+h2 {
+	background-color: #F0F0F0;
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	outline: 0 none;
+	padding: 3px 10px;
+	margin: 10px 0px;
+	text-decoration: none;
+}
+
+h3 {
+	background-color: #F0F0F0;
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	outline: 0 none;
+	font-style: italic;
+	padding: 3px 10px;
+	margin: 10px 0px;
+	text-decoration: none;
+}
+
+h4 {
+	font-style: italic;
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+table h4 {
+	padding: 5px 0px 5px 0px;
+}
+.version {
+	font-size: 10px;
+	color: #CCCCCC;
+}
+
+.content {
+	padding: 3px 10px;
+}
+
+.relation {
+	font-size: 12px;
+}
+
+li {
+	padding-top: 2px;
+	font-size: 11px;
+}
+
+table, th,td {
+	border: 1px solid #CCCCCC;
+}
+table.complexType {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+th {
+	background-color: #CCCCCC;
+}
+
+th.subHeader {
+	background-color: #F0F0F0;
+}
+
+
+#tree span.breaks a  {
+	color: red;
+	font-weight: bold;
+	font-size: 9pt;	
+}
+#tree span.breaks_below a  {
+	font-size: 8.5pt;
+}
+#tree span.nobreaks_below a {
+	color: gray;
+	font-size: 8pt;
+	font-style: italic;
+}
+#tree span.nobreaks a {
+	font-weight:bold;
+	font-size: 8pt;
+}
+#tree span.documentation a  {
+	color: gray;
+	font-size: 8pt;
+}
+h2.breaks, h2.invalid {
+	color: red;
+}
+
+h2.ok {
+	color: green;
+}
+h2.warning {
+	color: rgb(198,79,0);
+}
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+    display: inline-block;	
+	height: 16px;
+	width: 16px;
+	margin-right:5px;
+}
+h2.breaks .icon {
+	background-image: url("breaks.png");
+}
+h2.invalid .icon {
+	background-image: url("invalid.png");
+}
+h2.warning .icon {
+	background-image: url("warning.png");
+}
+h2.ok .icon {
+	background-image: url("ok.png");
+}
