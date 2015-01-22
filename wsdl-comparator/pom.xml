@@ -182,24 +182,4 @@
 		<url>https://werknet.denhaag.nl/Content/overzichtspagina/Paginas/Webservices.aspx</url>
 		<name>Team Applicatie Integratie (Gemeente Den Haag)</name>
 	</organization>
-	<developers>
-		<developer>
-			<id>bastiaan</id>
-			<name>Bastiaan Verhoef</name>
-		</developer>
-	</developers>
-	<contributors>
-		<contributor>
-			<name>Borjan Cace</name>
-			<roles>
-				<role>Project Manager</role>
-			</roles>
-		</contributor>
-		<contributor>
-			<name>Michiel Jaeger</name>
-			<roles>
-				<role>Tester</role>
-			</roles>
-		</contributor>
-	</contributors>
 </project>
