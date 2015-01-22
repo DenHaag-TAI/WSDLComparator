@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.denhaag.tw</groupId>
 	<artifactId>wsdl-comparator</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<name>wsdl-comparator</name>
 	<description>WSDL Comparator</description>
 	<inceptionYear>2012</inceptionYear>
