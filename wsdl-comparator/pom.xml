@@ -7,8 +7,8 @@
 	<description>WSDL Comparator</description>
 	<inceptionYear>2012</inceptionYear>
 	<scm>
-		<connection>scm:git:git://github.com/DenHaag-TAI/WSDLComparator.git</connection>
-		<developerConnection>scm:git:git@github.com/DenHaag-TAI/WSDLComparator.git</developerConnection>
+		<connection>scm:git:https://github.com/DenHaag-TAI/WSDLComparator.git</connection>
+		<developerConnection>scm:git:https://github.com/DenHaag-TAI/WSDLComparator.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
