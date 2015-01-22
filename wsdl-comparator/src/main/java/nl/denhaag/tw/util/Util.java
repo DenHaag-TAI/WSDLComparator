@@ -37,7 +37,6 @@ import org.apache.log4j.Logger;
 /**
  * Utility class for all TWB projects.
  * 
- * @author Bastiaan Verhoef
  * 
  */
 public class Util {
