@@ -24,15 +24,17 @@ package nl.denhaag.tw.comparators.result;
 
 
 import java.util.HashMap;
+
 import java.util.LinkedList;
 import java.util.Map;
 
 import javax.xml.namespace.QName;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class ComparisonStorage {
-	private static final Logger LOGGER = Logger.getLogger(ComparisonStorage.class);
+	private static final Logger LOGGER = LogManager.getLogger(ComparisonStorage.class);
 	private static ComparisonStorage instance;
 	private Map<QName, Map<QName, ChangedResult>> typeComparison = new HashMap<QName, Map<QName, ChangedResult>>();
 	private LinkedList<ComparisonStorage.Entry> stack = new LinkedList<ComparisonStorage.Entry>();
