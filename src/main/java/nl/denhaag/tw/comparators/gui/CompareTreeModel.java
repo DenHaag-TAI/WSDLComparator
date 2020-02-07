@@ -24,6 +24,7 @@ package nl.denhaag.tw.comparators.gui;
 
 
 import javax.swing.event.TreeModelListener;
+
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
 
@@ -35,48 +36,48 @@ public class CompareTreeModel implements TreeModel {
 	public CompareTreeModel(CompareResult root){
 		this.root = root;
 	}
-	@Override
+//	@Override
 	public void addTreeModelListener(TreeModelListener arg0) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+//	@Override
 	public Object getChild(Object arg0, int arg1) {
 		CompareResult compareResult = (CompareResult)arg0;
 		return compareResult.getChildren().get(arg1);
 	}
 
-	@Override
+//	@Override
 	public int getChildCount(Object arg0) {
 		CompareResult compareResult = (CompareResult)arg0;
 		return compareResult.getChildren().size();
 	}
 
-	@Override
+//	@Override
 	public int getIndexOfChild(Object arg0, Object arg1) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	@Override
+//	@Override
 	public Object getRoot() {
 		return root;
 	}
 
-	@Override
+//	@Override
 	public boolean isLeaf(Object arg0) {
 		CompareResult compareResult = (CompareResult)arg0;
 		return compareResult.getChildren().isEmpty();
 	}
 
-	@Override
+//	@Override
 	public void removeTreeModelListener(TreeModelListener arg0) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
+//	@Override
 	public void valueForPathChanged(TreePath arg0, Object arg1) {
 		// TODO Auto-generated method stub
 

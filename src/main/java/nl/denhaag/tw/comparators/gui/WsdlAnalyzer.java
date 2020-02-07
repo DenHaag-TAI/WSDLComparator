@@ -2,6 +2,7 @@ package nl.denhaag.tw.comparators.gui;
 
 /*
  * #%L
+
  * wsdl-comparator
  * %%
  * Copyright (C) 2012 - 2013 Team Webservices (Gemeente Den Haag)
@@ -23,6 +24,7 @@ package nl.denhaag.tw.comparators.gui;
  */
 
 import java.awt.Color;
+
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.EventQueue;
@@ -51,7 +53,8 @@ import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class WsdlAnalyzer {
 	protected static final String OLD_WSDLLOCATION = "old-wsdllocation";
@@ -59,7 +62,7 @@ public class WsdlAnalyzer {
 	protected static final String REPORT_LOCATION = "report-location";
 	protected static final String SETTINGS_PROPERTIES = "settings.properties";
 	private static final String LABELS_PROPERTIES = "/labels.properties";
-	private static final Logger LOGGER = Logger.getLogger(WsdlAnalyzer.class);
+	private static final Logger LOGGER = LogManager.getLogger(WsdlAnalyzer.class);
 	private JFrame applicationFrame;
 	private JScrollPane scrollPane;
 	private JTextField oldWsdlLocation;

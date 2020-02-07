@@ -24,6 +24,7 @@ package nl.denhaag.tw.comparators.gui;
 
 
 import java.awt.Color;
+
 import java.awt.Font;
 import java.io.File;
 import java.net.URL;
@@ -36,10 +37,12 @@ import nl.denhaag.tw.comparators.result.CompareResult;
 import nl.denhaag.tw.comparators.result.CompareWsdl;
 import nl.denhaag.tw.comparators.result.Compatibility;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class ComparisonThread extends Thread {
-	private final static Logger LOGGER = Logger.getLogger(ComparisonThread.class);
+	private final static Logger LOGGER = LogManager.getLogger(ComparisonThread.class);
+//	private final static Logger LOGGER = Logger.getLogger(ComparisonThread.class);
 
 	private WsdlAnalyzer wsdlAnalyzer;
 	public ComparisonThread( WsdlAnalyzer wsdlAnalyzer){

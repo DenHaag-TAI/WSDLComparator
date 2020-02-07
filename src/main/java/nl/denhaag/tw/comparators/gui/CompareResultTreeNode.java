@@ -25,6 +25,7 @@ package nl.denhaag.tw.comparators.gui;
 
 import java.util.Enumeration;
 
+
 import javax.swing.tree.TreeNode;
 
 import nl.denhaag.tw.comparators.result.CompareResult;
@@ -37,39 +38,39 @@ public class CompareResultTreeNode implements TreeNode {
 		this.current = root;
 		this.parent = parent;
 	}
-	@Override
+//	@Override
 	public Enumeration children() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+//	@Override
 	public boolean getAllowsChildren() {
 		// TODO Auto-generated method stub
 		return !current.getChildren().isEmpty();
 	}
 
-	@Override
+//	@Override
 	public TreeNode getChildAt(int childIndex) {
 		return new CompareResultTreeNode(current.getChildren().get(childIndex), this);
 	}
 
-	@Override
+//	@Override
 	public int getChildCount() {
 		return current.getChildren().size();
 	}
 
-	@Override
+//	@Override
 	public int getIndex(TreeNode node) {
 		return 0;
 	}
 
-	@Override
+//	@Override
 	public TreeNode getParent() {
 		return parent;
 	}
 
-	@Override
+//	@Override
 	public boolean isLeaf() {
 		return current.getChildren().size() == 0;
 	}
