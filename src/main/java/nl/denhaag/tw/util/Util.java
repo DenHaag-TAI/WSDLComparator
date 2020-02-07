@@ -24,13 +24,15 @@ package nl.denhaag.tw.util;
 
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Utility class for all TWB projects.
@@ -43,7 +45,7 @@ public class Util {
 	private static final String UNKNOWN_VERSION = "unknown version";
 	private static final String UNKNOWN_VENDOR = "unknown vendor";
 	private static final String UNKNOWN_TITLE = "unknown title";
-	private static Logger LOGGER = Logger.getLogger(Util.class);
+	private static Logger LOGGER = LogManager.getLogger(Util.class);
 	public static final String SEPARATOR = "/";
 
 	/**
