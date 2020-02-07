@@ -24,6 +24,7 @@ package nl.denhaag.tw.comparators.schema;
 
 
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Map;
 
@@ -34,11 +35,12 @@ import nl.denhaag.tw.comparators.result.ChangedResult;
 import nl.denhaag.tw.comparators.result.Compatibility;
 import nl.denhaag.tw.comparators.result.RemovedResult;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.ow2.easywsdl.schema.org.w3._2001.xmlschema.OpenAttrs;
 
 public abstract class AbstractOpenAttrsComparator<T extends OpenAttrs> extends AbstractComparator<T> {
-	protected final Logger logger = Logger.getLogger(this.getClass());
+	protected final Logger logger = LogManager.getLogger(this.getClass());
 
 	public AbstractOpenAttrsComparator(T oldObject, T newObject) {
 		super(oldObject, newObject);

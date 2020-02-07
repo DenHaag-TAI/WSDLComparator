@@ -24,6 +24,7 @@ package nl.denhaag.tw.comparators.schema;
 
 
 import java.util.List;
+
 import java.util.Map;
 
 import javax.xml.namespace.QName;
@@ -36,11 +37,12 @@ import nl.denhaag.tw.comparators.result.Compatibility;
 import nl.denhaag.tw.comparators.result.RemovedResult;
 import nl.denhaag.tw.comparators.result.UnsupportedResult;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.ow2.easywsdl.schema.api.Attribute;
 
 public abstract class AbstractComparator<T> {
-	protected final Logger logger = Logger.getLogger(this.getClass());
+	protected final Logger logger = LogManager.getLogger(this.getClass());
 	private T oldObject;
 	private T newObject;
 
